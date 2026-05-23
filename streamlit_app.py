@@ -81,6 +81,19 @@ with col4:
         "https://dentalpatientanalyticsrecommendation-ai-h3ry9agfcmqhpupbvakrz9.streamlit.app/"
     )
 
+with col5:
+
+    st.subheader("Ontario University Policy Analytics Platform")
+
+    st.write("""
+    AI-powered recommendation and analytics
+    prototype for dental patient insights.
+    """)
+
+    st.link_button(
+        "Open App",
+        "https://ontariouniversitypolicyanalytics-nxxbrmx7m4varszyi4qqno.streamlit.app/"
+    )
 st.markdown("---")
 
 st.subheader("Technical Skills")
