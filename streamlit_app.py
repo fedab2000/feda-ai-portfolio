@@ -32,7 +32,7 @@ with col1:
 
     st.link_button(
         "Open App",
-        "PASTE_YOUR_INSURANCE_APP_URL_HERE"
+        "insurance-pricing-ai-myxjhrl3vaeyahw8kkrmc6.streamlit.app"
     )
 
 with col2:
