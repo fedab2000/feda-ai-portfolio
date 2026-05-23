@@ -46,7 +46,7 @@ with col2:
 
     st.link_button(
         "Open App",
-        "PASTE_YOUR_HEALTHCARE_APP_URL_HERE"
+        "https://healthcare-readmission-xgboost-spg4bqhqnmlxjiemckkmlg.streamlit.app/"
     )
 
 st.markdown("---")
@@ -64,7 +64,7 @@ with col3:
 
     st.link_button(
         "Open App",
-        "PASTE_YOUR_REGRESSION_APP_URL_HERE"
+        "https://penaltymodelselection-ftkmcdpmz52soaxswu52cj.streamlit.app/"
     )
 
 with col4:
@@ -78,7 +78,7 @@ with col4:
 
     st.link_button(
         "Open App",
-        "PASTE_YOUR_DENTAL_APP_URL_HERE"
+        "https://dentalpatientanalyticsrecommendation-ai-h3ry9agfcmqhpupbvakrz9.streamlit.app/"
     )
 
 st.markdown("---")
