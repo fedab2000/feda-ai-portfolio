@@ -51,7 +51,7 @@ with col2:
 
 st.markdown("---")
 
-col3, col4 = st.columns(2)
+col3, col4, col5 = st.columns(3)
 
 with col3:
 
@@ -86,8 +86,8 @@ with col5:
     st.subheader("Ontario University Policy Analytics Platform")
 
     st.write("""
-    AI-powered recommendation and analytics
-    prototype for dental patient insights.
+    The Ontario University Policy Analytics Platform is a synthetic higher education analytics project designed to simulate 
+    how Ontario universities and sector organizations can use data to support strategic planning, policy analysis, and executive decision-making.
     """)
 
     st.link_button(
