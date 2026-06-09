@@ -10,11 +10,19 @@ st.title("Feda Bashbishi - AI & Data Science Portfolio")
 
 st.markdown("""
 MBA, M.Sc. Eng., MDSAI  
-University of Waterloo
+University of Waterloo fbashbis@uwaterloo.ca
 
-This portfolio showcases machine learning, predictive analytics,
-and AI applications developed using Python, Scikit-learn,
-XGBoost, and Streamlit.
+This portfolio showcases machine learning, 
+predictive analytics, data science, and AI applications developed using 
+Python, Scikit-learn, XGBoost, and Streamlit.
+
+The applications presented here use synthetic data and are intended for educational, 
+demonstration, and portfolio purposes only. They illustrate end-to-end workflows including data preparation, 
+feature engineering, machine learning model development, evaluation, visualization, and interactive dashboard design.
+
+Students, Quality Assurance (QA) professionals, Business Analysts, 
+Data Analysts, Data Scientists, and ML/AI developers are welcome to explore, 
+download, and adapt these applications for learning, experimentation, and professional development.
 """)
 
 st.markdown("---")
