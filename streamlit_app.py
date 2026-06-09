@@ -152,4 +152,3 @@ st.markdown("---")
 st.caption(
     "Author: Feda Bashbishi | University of Waterloo"
 )
-```
