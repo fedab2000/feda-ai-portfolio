@@ -74,7 +74,7 @@ with col3:
 
     st.link_button(
         "Open App",
-        "https://autofrauddetectionapp-hnsvzpa8ft3daymuve23al.streamlit.app/"
+        "https://autofrauddetectionapp-ndkyh8svzhdyvyuvmybmmq.streamlit.app/"
     )
 
 st.markdown("---")
