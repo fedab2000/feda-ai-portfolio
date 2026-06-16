@@ -1,162 +1,188 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Feda Bashbishi AI Portfolio",
+    page_title="Feda Bashbishi Portfolio",
     page_icon="🚀",
     layout="wide"
 )
 
-st.title("Feda Bashbishi - AI & Data Science Portfolio")
+# =====================================================
+# HEADER
+# =====================================================
+
+st.title("Feda Bashbishi")
+
+st.subheader("AI Governance • Analytics Leadership • Machine Learning")
 
 st.markdown("""
-MBA, M.Sc. Eng., MDSAI  
-University of Waterloo fbashbis@uwaterloo.ca
+**MBA | M.Sc. Engineering | MDSAI (University of Waterloo)**  
+📧 fbashbis@uwaterloo.ca
 
-This portfolio showcases machine learning, 
-predictive analytics, data science, and AI applications developed using 
-Python, Scikit-learn, XGBoost, and Streamlit.
+Experienced analytics leader with expertise in AI governance, machine learning,
+business intelligence, predictive analytics, data strategy, and executive decision support.
 
-The applications presented here use synthetic data and are intended for educational, 
-demonstration, and portfolio purposes only. They illustrate end-to-end workflows including data preparation, 
-feature engineering, machine learning model development, evaluation, visualization, and interactive dashboard design.
-
-Students, Quality Assurance (QA) professionals, Business Analysts, 
-Data Analysts, Data Scientists, and ML/AI developers are welcome to explore, 
-download, and adapt these applications for learning, experimentation, and professional development.
+This portfolio showcases interactive applications developed using Python, SQL,
+Streamlit, Scikit-learn, XGBoost, and Power BI.
 """)
 
 st.markdown("---")
 
 # =====================================================
-# FIRST ROW OF PROJECTS
+# FEATURED PROJECT
 # =====================================================
 
-col1, col2, col3 = st.columns(3)
+st.header("⭐ Featured Project")
+
+st.subheader("Responsible AI Governance Dashboard")
+
+st.info("""
+Executive-level platform for AI governance, risk management, ethics assessment,
+compliance monitoring, and AI portfolio oversight.
+
+Built to demonstrate how organizations can operationalize Responsible AI principles
+through measurable KPIs, risk scoring, maturity assessments, and executive dashboards.
+""")
+
+st.link_button(
+    "Launch Responsible AI Governance Dashboard",
+    "https://YOUR-RESPONSIBLE-AI-GOVERNANCE-DASHBOARD.streamlit.app/"
+)
+
+st.markdown("---")
+
+# =====================================================
+# EXECUTIVE ANALYTICS PROJECTS
+# =====================================================
+
+st.header("Executive Analytics & Decision Support")
+
+col1, col2 = st.columns(2)
 
 with col1:
-
-    st.subheader("Insurance Pricing AI")
-
+    st.subheader("Ontario University Policy Analytics Platform")
     st.write("""
-    Predictive insurance pricing application using
-    frequency and severity modeling techniques.
+    Executive decision-support platform simulating how universities and sector
+    organizations can use analytics for strategic planning, policy analysis,
+    enrolment forecasting, and funding sustainability assessments.
     """)
-
     st.link_button(
         "Open App",
-        "https://insurance-pricing-ai-myxjhrl3vaeyahw8kkrmc6.streamlit.app/"
+        "https://ontariouniversitypolicyanalytics-nxxbrmx7m4varszyi4qqno.streamlit.app/"
     )
 
 with col2:
-
-    st.subheader("Healthcare Readmission Predictor")
-
-    st.write("""
-    XGBoost-based healthcare risk prediction model
-    for patient readmission analysis.
-    """)
-
-    st.link_button(
-        "Open App",
-        "https://healthcare-readmission-xgboost-spg4bqhqnmlxjiemckkmlg.streamlit.app/"
-    )
-
-with col3:
-
     st.subheader("Auto Insurance Fraud Detection")
-
     st.write("""
-    End-to-end machine learning solution for detecting
-    potentially fraudulent automobile insurance claims
-    using feature selection, predictive modeling,
-    confusion matrix analysis, and fraud risk scoring.
+    End-to-end machine learning solution for detecting potentially fraudulent
+    automobile insurance claims using feature selection, predictive modeling,
+    model evaluation, and fraud risk scoring.
     """)
-
     st.link_button(
         "Open App",
         "https://autofrauddetectionapp-ndkyh8svzhdyvyuvmybmmq.streamlit.app/"
     )
 
+col3, col4 = st.columns(2)
+
+with col3:
+    st.subheader("Insurance Pricing AI")
+    st.write("""
+    Predictive insurance pricing application using frequency and severity
+    modeling techniques to support pricing analytics and risk assessment.
+    """)
+    st.link_button(
+        "Open App",
+        "https://insurance-pricing-ai-myxjhrl3vaeyahw8kkrmc6.streamlit.app/"
+    )
+
+with col4:
+    st.subheader("Healthcare Readmission Predictor")
+    st.write("""
+    XGBoost-based healthcare risk prediction model for patient readmission
+    analysis, risk stratification, and predictive healthcare analytics.
+    """)
+    st.link_button(
+        "Open App",
+        "https://healthcare-readmission-xgboost-spg4bqhqnmlxjiemckkmlg.streamlit.app/"
+    )
+
 st.markdown("---")
 
 # =====================================================
-# SECOND ROW OF PROJECTS
+# ADDITIONAL ML PROJECTS
 # =====================================================
 
-col4, col5, col6 = st.columns(3)
+st.header("Additional Machine Learning Applications")
 
-with col4:
-
-    st.subheader("Regularized Regression Comparison")
-
-    st.write("""
-    Interactive comparison of Ridge, Lasso,
-    and Elastic Net regression models.
-    """)
-
-    st.link_button(
-        "Open App",
-        "https://penaltymodelselection-ftkmcdpmz52soaxswu52cj.streamlit.app/"
-    )
+col5, col6 = st.columns(2)
 
 with col5:
-
     st.subheader("Dental Recommendation AI")
-
     st.write("""
-    AI-powered recommendation and analytics
-    prototype for dental patient insights.
+    AI-powered recommendation and analytics prototype for dental patient insights,
+    treatment planning, and patient engagement.
     """)
-
     st.link_button(
         "Open App",
         "https://dentalpatientanalyticsrecommendation-ai-h3ry9agfcmqhpupbvakrz9.streamlit.app/"
     )
 
 with col6:
-
-    st.subheader("Ontario University Policy Analytics Platform")
-
+    st.subheader("Regularized Regression Comparison")
     st.write("""
-    The Ontario University Policy Analytics Platform is a synthetic
-    higher education analytics project designed to simulate how
-    Ontario universities and sector organizations can use data to
-    support strategic planning, policy analysis, and executive
-    decision-making.
+    Interactive comparison of Ridge, Lasso, and Elastic Net regression models
+    for feature selection, regularization, and model optimization.
     """)
-
     st.link_button(
         "Open App",
-        "https://ontariouniversitypolicyanalytics-nxxbrmx7m4varszyi4qqno.streamlit.app/"
+        "https://penaltymodelselection-ftkmcdpmz52soaxswu52cj.streamlit.app/"
     )
 
 st.markdown("---")
 
 # =====================================================
-# TECHNICAL SKILLS
+# CORE COMPETENCIES
 # =====================================================
 
-st.subheader("Technical Skills")
+st.header("Core Competencies")
 
-st.markdown("""
-- Python
-- Machine Learning
-- Scikit-learn
-- XGBoost
-- Streamlit
-- Power BI
-- SQL
-- Predictive Analytics
-- Data Visualization
-- Statistical Learning
-- Feature Selection (LASSO, Ridge, Elastic Net)
-- Fraud Detection Analytics
-- Insurance Analytics
-- Model Evaluation & Explainability
-""")
+col7, col8, col9 = st.columns(3)
+
+with col7:
+    st.markdown("""
+    **Leadership & Strategy**
+    - AI Governance
+    - Responsible AI
+    - Data Strategy
+    - Analytics Leadership
+    - KPI Development
+    - Executive Reporting
+    """)
+
+with col8:
+    st.markdown("""
+    **Analytics & Data Science**
+    - Python
+    - SQL
+    - Machine Learning
+    - Scikit-learn
+    - XGBoost
+    - Statistical Learning
+    """)
+
+with col9:
+    st.markdown("""
+    **Visualization & BI**
+    - Power BI
+    - Streamlit
+    - Dashboard Development
+    - Data Visualization
+    - Predictive Analytics
+    - Data Storytelling
+    """)
 
 st.markdown("---")
 
 st.caption(
-    "Author: Feda Bashbishi | University of Waterloo"
+    "Feda Bashbishi | AI Governance, Analytics & Machine Learning Portfolio"
 )
