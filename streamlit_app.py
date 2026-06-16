@@ -45,7 +45,7 @@ through measurable KPIs, risk scoring, maturity assessments, and executive dashb
 
 st.link_button(
     "Launch Responsible AI Governance Dashboard",
-    "https://YOUR-RESPONSIBLE-AI-GOVERNANCE-DASHBOARD.streamlit.app/"
+    "https://responsible-ai-governance-dashboard-8kubjqifjdvwxkjfvnuvuj.streamlit.app/"
 )
 
 st.markdown("---")
