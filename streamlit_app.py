@@ -12,17 +12,17 @@ st.set_page_config(
 
 st.title("Feda Bashbishi")
 
-st.subheader("AI Governance • Analytics Leadership • Machine Learning")
+st.subheader("AI Governance • Fraud Analytics • Analytics Leadership • Machine Learning")
 
 st.markdown("""
 **MBA | M.Sc. Engineering | MDSAI (University of Waterloo)**  
 📧 fbashbis@uwaterloo.ca
 
-Experienced analytics leader with expertise in AI governance, machine learning,
+Experienced analytics leader with expertise in AI governance, fraud analytics, machine learning,
 business intelligence, predictive analytics, data strategy, and executive decision support.
 
 This portfolio showcases interactive applications developed using Python, SQL, Streamlit,
-Scikit-learn, XGBoost, NetworkX, Graph Analytics, and Power BI.
+Scikit-learn, XGBoost, NetworkX, graph analytics, and Power BI.
 
 The applications presented in this portfolio are intended for educational and
 demonstration purposes only. All data used within the applications is synthetic
@@ -36,25 +36,45 @@ GitHub profile (fedab2000) to explore, download, and learn from these projects.
 st.markdown("---")
 
 # =====================================================
-# FEATURED PROJECT
+# FEATURED PROJECTS
 # =====================================================
 
-st.header("⭐ Featured Project")
+st.header("⭐ Featured Projects")
 
-st.subheader("Responsible AI Governance Dashboard")
+col1, col2 = st.columns(2)
 
-st.info("""
-Executive-level platform for AI governance, risk management, ethics assessment,
-compliance monitoring, and AI portfolio oversight.
+with col1:
+    st.subheader("Responsible AI Governance Dashboard")
 
-Built to demonstrate how organizations can operationalize Responsible AI principles
-through measurable KPIs, risk scoring, maturity assessments, and executive dashboards.
-""")
+    st.info("""
+    Executive-level platform for AI governance, risk management, ethics assessment,
+    compliance monitoring, and AI portfolio oversight.
 
-st.link_button(
-    "Launch Responsible AI Governance Dashboard",
-    "https://responsible-ai-governance-dashboard-8kubjqifjdvwxkjfvnuvuj.streamlit.app/"
-)
+    Built to demonstrate how organizations can operationalize Responsible AI principles
+    through measurable KPIs, risk scoring, maturity assessments, and executive dashboards.
+    """)
+
+    st.link_button(
+        "Launch Responsible AI Governance Dashboard",
+        "https://responsible-ai-governance-dashboard-8kubjqifjdvwxkjfvnuvuj.streamlit.app/"
+    )
+
+with col2:
+    st.subheader("Insurance Fraud Ring Detection & Network Analytics")
+
+    st.info("""
+    Advanced fraud analytics platform using graph analytics, network science,
+    connected components, centrality measures, K-Means clustering, and SIU
+    prioritization scoring to identify suspicious insurance fraud networks.
+
+    Built as a standalone project to demonstrate fraud ring detection,
+    entity relationship analysis, and unsupervised machine learning.
+    """)
+
+    st.link_button(
+        "Launch Fraud Ring Analytics Platform",
+        "https://insurancefraudringdetectionnetworkanalyticsplatform-ct4xejadrm.streamlit.app/"
+    )
 
 st.markdown("---")
 
@@ -64,9 +84,9 @@ st.markdown("---")
 
 st.header("Executive Analytics & Decision Support")
 
-col1, col2 = st.columns(2)
+col3, col4 = st.columns(2)
 
-with col1:
+with col3:
     st.subheader("Ontario University Policy Analytics Platform")
     st.write("""
     Executive decision-support platform simulating how universities and sector
@@ -78,22 +98,7 @@ with col1:
         "https://ontariouniversitypolicyanalytics-nxxbrmx7m4varszyi4qqno.streamlit.app/"
     )
 
-with col2:
-    st.subheader("Insurance Fraud Ring Detection & Network Analytics")
-    st.write("""
-    Standalone graph analytics and unsupervised learning platform for detecting
-    suspicious insurance fraud networks using connected components, network
-    centrality, K-Means clustering, entity relationship analysis, and SIU
-    prioritization scoring.
-    """)
-    st.link_button(
-        "Open App",
-        "PASTE_YOUR_FRAUD_RING_STREAMLIT_LINK_HERE"
-    )
-
-col3, col4 = st.columns(2)
-
-with col3:
+with col4:
     st.subheader("Auto Insurance Fraud Detection")
     st.write("""
     End-to-end machine learning solution for detecting potentially fraudulent
@@ -105,7 +110,9 @@ with col3:
         "https://autofrauddetectionapp-ndkyh8svzhdyvyuvmybmmq.streamlit.app/"
     )
 
-with col4:
+col5, col6 = st.columns(2)
+
+with col5:
     st.subheader("Insurance Pricing AI")
     st.write("""
     Predictive insurance pricing application using frequency and severity
@@ -116,9 +123,7 @@ with col4:
         "https://insurance-pricing-ai-myxjhrl3vaeyahw8kkrmc6.streamlit.app/"
     )
 
-col5, col6 = st.columns(2)
-
-with col5:
+with col6:
     st.subheader("Healthcare Readmission Predictor")
     st.write("""
     XGBoost-based healthcare risk prediction model for patient readmission
@@ -127,17 +132,6 @@ with col5:
     st.link_button(
         "Open App",
         "https://healthcare-readmission-xgboost-spg4bqhqnmlxjiemckkmlg.streamlit.app/"
-    )
-
-with col6:
-    st.subheader("Responsible AI Governance Dashboard")
-    st.write("""
-    Executive-level platform for AI governance, risk management, ethics assessment,
-    compliance monitoring, and AI portfolio oversight.
-    """)
-    st.link_button(
-        "Open App",
-        "https://responsible-ai-governance-dashboard-8kubjqifjdvwxkjfvnuvuj.streamlit.app/"
     )
 
 st.markdown("---")
@@ -187,11 +181,11 @@ with col9:
     **Leadership & Strategy**
     - AI Governance
     - Responsible AI
+    - Fraud Analytics
     - Data Strategy
     - Analytics Leadership
     - KPI Development
     - Executive Reporting
-    - Fraud Analytics
     """)
 
 with col10:
@@ -202,7 +196,7 @@ with col10:
     - Machine Learning
     - Scikit-learn
     - XGBoost
-    - Statistical Learning
+    - K-Means Clustering
     - Network Analytics
     - Graph Analytics
     """)
