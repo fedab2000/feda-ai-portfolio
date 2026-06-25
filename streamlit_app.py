@@ -18,18 +18,18 @@ st.markdown("""
 **MBA | M.Sc. Engineering | MDSAI (University of Waterloo)**  
 📧 fbashbis@uwaterloo.ca
 
-Experienced analytics leader with expertise in AI governance, machine learning, 
+Experienced analytics leader with expertise in AI governance, machine learning,
 business intelligence, predictive analytics, data strategy, and executive decision support.
 
-This portfolio showcases interactive applications developed using Python, SQL, Streamlit, 
-Scikit-learn, XGBoost, and Power BI.
+This portfolio showcases interactive applications developed using Python, SQL, Streamlit,
+Scikit-learn, XGBoost, NetworkX, Graph Analytics, and Power BI.
 
-The applications presented in this portfolio are intended for educational and 
-demonstration purposes only. All data used within the applications is synthetic 
+The applications presented in this portfolio are intended for educational and
+demonstration purposes only. All data used within the applications is synthetic
 and does not represent real individuals, organizations, or events.
 
-Students, machine learning practitioners, software developers, QA professionals, 
-and anyone interested in AI and machine learning development are welcome to visit my 
+Students, machine learning practitioners, software developers, QA professionals,
+and anyone interested in AI and machine learning development are welcome to visit my
 GitHub profile (fedab2000) to explore, download, and learn from these projects.
 """)
 
@@ -79,6 +79,21 @@ with col1:
     )
 
 with col2:
+    st.subheader("Insurance Fraud Ring Detection & Network Analytics")
+    st.write("""
+    Standalone graph analytics and unsupervised learning platform for detecting
+    suspicious insurance fraud networks using connected components, network
+    centrality, K-Means clustering, entity relationship analysis, and SIU
+    prioritization scoring.
+    """)
+    st.link_button(
+        "Open App",
+        "PASTE_YOUR_FRAUD_RING_STREAMLIT_LINK_HERE"
+    )
+
+col3, col4 = st.columns(2)
+
+with col3:
     st.subheader("Auto Insurance Fraud Detection")
     st.write("""
     End-to-end machine learning solution for detecting potentially fraudulent
@@ -90,9 +105,7 @@ with col2:
         "https://autofrauddetectionapp-ndkyh8svzhdyvyuvmybmmq.streamlit.app/"
     )
 
-col3, col4 = st.columns(2)
-
-with col3:
+with col4:
     st.subheader("Insurance Pricing AI")
     st.write("""
     Predictive insurance pricing application using frequency and severity
@@ -103,7 +116,9 @@ with col3:
         "https://insurance-pricing-ai-myxjhrl3vaeyahw8kkrmc6.streamlit.app/"
     )
 
-with col4:
+col5, col6 = st.columns(2)
+
+with col5:
     st.subheader("Healthcare Readmission Predictor")
     st.write("""
     XGBoost-based healthcare risk prediction model for patient readmission
@@ -114,6 +129,17 @@ with col4:
         "https://healthcare-readmission-xgboost-spg4bqhqnmlxjiemckkmlg.streamlit.app/"
     )
 
+with col6:
+    st.subheader("Responsible AI Governance Dashboard")
+    st.write("""
+    Executive-level platform for AI governance, risk management, ethics assessment,
+    compliance monitoring, and AI portfolio oversight.
+    """)
+    st.link_button(
+        "Open App",
+        "https://responsible-ai-governance-dashboard-8kubjqifjdvwxkjfvnuvuj.streamlit.app/"
+    )
+
 st.markdown("---")
 
 # =====================================================
@@ -122,9 +148,9 @@ st.markdown("---")
 
 st.header("Additional Machine Learning Applications")
 
-col5, col6 = st.columns(2)
+col7, col8 = st.columns(2)
 
-with col5:
+with col7:
     st.subheader("Dental Recommendation AI")
     st.write("""
     AI-powered recommendation and analytics prototype for dental patient insights,
@@ -135,7 +161,7 @@ with col5:
         "https://dentalpatientanalyticsrecommendation-ai-h3ry9agfcmqhpupbvakrz9.streamlit.app/"
     )
 
-with col6:
+with col8:
     st.subheader("Regularized Regression Comparison")
     st.write("""
     Interactive comparison of Ridge, Lasso, and Elastic Net regression models
@@ -154,9 +180,9 @@ st.markdown("---")
 
 st.header("Core Competencies")
 
-col7, col8, col9 = st.columns(3)
+col9, col10, col11 = st.columns(3)
 
-with col7:
+with col9:
     st.markdown("""
     **Leadership & Strategy**
     - AI Governance
@@ -165,9 +191,10 @@ with col7:
     - Analytics Leadership
     - KPI Development
     - Executive Reporting
+    - Fraud Analytics
     """)
 
-with col8:
+with col10:
     st.markdown("""
     **Analytics & Data Science**
     - Python
@@ -176,9 +203,11 @@ with col8:
     - Scikit-learn
     - XGBoost
     - Statistical Learning
+    - Network Analytics
+    - Graph Analytics
     """)
 
-with col9:
+with col11:
     st.markdown("""
     **Visualization & BI**
     - Power BI
@@ -187,10 +216,11 @@ with col9:
     - Data Visualization
     - Predictive Analytics
     - Data Storytelling
+    - Executive Dashboards
     """)
 
 st.markdown("---")
 
 st.caption(
-    "Feda Bashbishi | AI Governance, Analytics & Machine Learning Portfolio"
+    "Feda Bashbishi | AI Governance, Fraud Analytics, Business Intelligence & Machine Learning Portfolio"
 )
